@@ -1,15 +1,60 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# Built application files
+*.apk
+*.ap_
+*.aab
+
+# Build outputs (all modules)
+build/
+out/
+
+# Gradle
+.gradle/
+**/gradle-app.setting
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local configuration
 local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Android Studio navigation editor
+**/navEditor.xml
+
+# Keystore and signing
+*.jks
+*.keystore
+
+# External native build
+.externalNativeBuild/
+.cxx/
+
+# Captures
+captures/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Kotlin
+*.class
+*.log
+*.pyc
+*.swp
+*~
+
+# Test outputs
+**/test-results/
+**/androidTest-results/
+**/reports/
+**/test-output/
+
+# KSP / annotation processors
+**/generated/
+
+# Misc
+*.hprof
+.cache/

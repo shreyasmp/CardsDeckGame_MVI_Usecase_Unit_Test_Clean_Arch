@@ -1,1 +1,0 @@
-com.mistplay.carddeckgame.core.database
